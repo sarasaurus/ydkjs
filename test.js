@@ -16,7 +16,8 @@
 // }
 // foo(2);
 
-///// CHAPTER 2
+
+//~~~~~~~~~~~~~~~~~~~~~~~CHAPTER 2~~~~~~~~~~~~~~~~~~~~~~~~
 
 // function foo(a) {
 
@@ -38,3 +39,48 @@
 // }
 // var b = 2;
 // foo ("var b=3;", 1);
+
+//~~~~~~~~~~~~~~~~~~~~Chapter 3~~~~~~~~~~~~~~~~~~~~~~
+// function foo(a) {
+// 	var b = 2;
+
+// 	function bar() {
+	
+// 	}
+// 	var c = 3;
+// }
+// // bar();
+// console.log(a,b,c);
+
+// //not the way to do it
+// function foo(a) {
+//     b=a + foo2(a*2);
+//     console.log(b*3);
+// }
+// function foo2 (a) {
+//     return a-1;
+// }
+// var b;
+
+// foo(2); 
+
+// //better way
+// function foo(a){
+//     function foo2(a){
+//         return a-1
+//     }
+//     var b;
+//     b=a + foo2(a*2);
+//     console.log(b*3);
+// }
+// foo(2);
+var MyReallyCoolLibrary = {
+	awesome: "stuff",
+	doSomething: function() {
+	
+	},
+	doAnotherThing: function() {
+		
+	}
+};
+console.log (awesome);
